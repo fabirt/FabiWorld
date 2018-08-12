@@ -1,0 +1,70 @@
+/*Hoja de estilos*/
+
+body{    
+    background:url(../Imagenes/stars.jpg);
+    margin-bottom: 1%;
+    font-family: Lucida Sans Unicode;
+}
+
+/*Todos*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+form{
+    background: rgba(0,0,0,0.3);
+    width: 25%;
+    height: auto;
+    border-radius: 5%;
+    padding: 1%;
+}
+
+.formulario h2, input, a{
+    display: block;
+}
+
+.in{
+    margin: 3% auto;
+    padding: 2.5%;
+    width: 80%;
+    font-size: 90%;
+    border: 2px solid #000;
+    border-radius: 25px;
+}
+::placeholder{
+    color: rgba(0,0,0,0.35);
+    font-weight: bold;
+}
+input:focus {
+    outline: none !important;
+    border:2px solid #892727;
+/*    box-shadow: 0 0 10px #719ECE;*/
+}
+
+.boton{
+    background: #892727;
+    margin: 3% auto;
+    padding: 2%;
+    width: 82%;
+    font-size: 100%;
+    font-weight: bold;
+    border: 2px solid #892727;
+    border-radius: 25px;
+}
+.boton:active{
+    background: #631C1C;
+    border: 2px solid #631C1C;
+}
+
+img{
+    margin: 0;
+    width: 20%;
+    border-radius: 40%;
+}
+div{
+    padding: 0;
+    margin: 0:
+}
+

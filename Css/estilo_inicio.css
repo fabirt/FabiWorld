@@ -18,6 +18,17 @@ header{
     margin: auto;
 }
 
+/*
+div{
+    height: 120px;
+    width: 200px;
+    background: #ff8000;
+    margin: 20px 50px;
+    padding: 30px;
+    border: 10px solid #000;
+    display: inline-block;
+}
+*/
 
 a:link{
     
@@ -93,6 +104,28 @@ aside p{
     text-align: justify;
 }
 
+.cerrar{
+    float: right;
+    list-style: none;
+}
+
+.persona{
+    display: inline-block; 
+    background: #fff; 
+    position: relative;
+    bottom: 0px;
+    width: 170%;
+    float: right;
+    font-size: 90%;
+    padding: 0 10%;
+    text-align: right;
+}
+.persona:hover{
+    cursor: pointer;
+}
+.persona li{
+    display: none;
+}
 
 
 

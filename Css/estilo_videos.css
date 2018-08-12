@@ -18,7 +18,6 @@ header{
     margin: auto;
 }
 
-
 a:link{
     
 }
@@ -93,6 +92,22 @@ aside p{
     text-align: justify;
 }
 
+.videoWrap{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 15%;
+}
+.videoWrap iframe{
+    margin: 0;
+    width: 70%;
+    height: 450px;
+    border: 0;
+}
+.videoWrap h2{
+    font-size: 100%;
+    background: #ccc;
+    width: 70%;
+}
 
 
 

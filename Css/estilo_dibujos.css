@@ -88,6 +88,33 @@ footer{
     word-spacing: 3em;
 }
 
+.galeria{
+    width: 100%;
+}
+
+
+.dibujo{
+    float: left;
+    margin-bottom: 10%;
+}
+
+.dibujo img{
+    width: 50%;
+    margin: 0% 10%;
+    border-radius: 50%;
+    float: left;
+    
+}
+.dibujo ul{
+    width: 25%;
+    background: rgba(193,193,193,0.65);
+    float: left;
+    list-style: none;
+    font-size: 90%;
+    padding: 0.7%;
+    border-radius: 5%;
+    box-shadow: 0px 0px 20px 2px;
+}
 
 aside p{
     text-align: justify;

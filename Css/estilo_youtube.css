@@ -1,0 +1,181 @@
+/*Hoja de estilos*/
+
+body{    
+/*    background:#B35B5B;*/
+    background: url(../Imagenes/bg1.jpg);
+    margin-bottom: 1%;
+    font-family: Lucida Sans Unicode;
+}
+
+/*Todos*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 90%;
+    margin: auto;
+}
+
+nav a:link{
+    
+}
+/*Pasar mouse sobre enlace*/
+nav a:hover{
+    background: rgba(145,48,48,0.55);
+}
+/*Al hacer click*/
+nav a:active{
+    
+}
+/*Enlaces visitados*/
+nav a:visited{
+    
+}
+
+/*Menu con listas*/
+.menu{
+    width: 100%;
+    background: #560707;  
+    margin: 0;
+    padding: 0;
+}
+.menu li{
+    display: inline-block;
+    width: 19.65%;
+    text-align: center;
+}
+.menu li a{
+    width: 97%;
+    padding: 2% ;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 105%;
+}
+
+.main{
+    width: 90%;
+    margin: 1% auto;
+}
+.main .contenido{
+    width: 78%;
+    padding: 1%;
+    background: rgba(80,80,80,0.61);
+    float: left;
+}
+aside{
+    font-size: 80%;
+    width: 15%;
+    margin-left: 2%;
+    padding: 1.5%;
+    background: #313131;
+    color: floralwhite;
+    float: left;
+}
+
+footer{   
+    width: 88.6%;
+    margin: auto;
+    margin-top: 45%;
+    background: #000;
+    color: floralwhite;
+    clear: both;
+    padding: 0.7%;
+    text-align: center;
+    word-spacing: 3em;
+}
+
+
+aside p{
+    text-align: justify;
+}
+
+.agregar{
+    padding: 3%;
+    position: relative;
+    background: #131313;
+    color: #ACACAC;
+    border: none;
+    font-size: 120%; 
+}
+.agregar:active{
+    background: #0F0F0F;
+    color: #888888;
+    
+}
+.agregar:focus{
+    outline: none !important;
+}
+
+.lista{
+    margin: 1.5% 2%;
+    list-style: none;
+    border-bottom: 1px solid;
+    text-transform: uppercase;
+/*    color: #560707;*/
+}
+.lista:hover{
+    background: #560707;
+}
+.link{
+    display: block;
+    width: 100%;
+    font-size: 140%;
+    color: #000;
+    text-decoration: none;
+}
+.link:visited{
+    color: #000;
+}
+
+
+.add{
+    margin-top: 15%;
+    display: none;
+}
+
+.add input{
+    margin-bottom: 3%;
+    border: none;
+    padding: 2%;
+}
+.nombre{
+    color: #CFCCCC;
+    font-weight: bold;
+    background: #131313;
+}
+.nombre:focus{
+    outline: none !important;
+    border:1px solid #000;
+}
+.direccion{
+    color: #560707;
+    background: #131313;    
+}
+.direccion:focus{
+    outline: none !important;
+    border:1px solid #000;
+}
+.enviar{
+    float: right;
+    margin-right: 3%;
+    background: #560707;
+    font-weight: bold;
+}
+.enviar:focus{
+    outline: none !important;
+}
+.enviar:active{
+    background: #410101;
+}
+
+.info{
+    font-size: 80%;
+    display: none;
+}
+
+
+
+
