@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Youtube - FabiWorld</title>
+        <link rel="stylesheet" href="Css/estilo_youtube.css">
+        <link rel="shortcut icon" type="image/x-icon" href="Imagenes/Favicon.ico">
+    </head>
+
+    <body>
+        <script src="JavaScript/leerVariables.js"></script>
+        <header>
+            <div>
+                <img src="Imagenes/logo.png" width="160"  alt="Logo">
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a id="home">Inicio</a></li>
+                    <li><a id="dibujos">Draws</a></li>
+                    <li><a id="videos">Videos</a></li>
+                    <li><a id="anime">Anime</a></li>
+                    <li><a id="youtube">Youtube</a></li>
+                </ul>
+            </nav>
+        </header> 
+        
+        <section class="main">
+            <section class="contenido">
+                <article>
+                    <h2>Youtubers</h2>
+                </article>
+                <ul id="miLista">
+                    <!--<li class="lista"><a class="link" href="anime.html">youtuber 1</a></li>-->
+                    
+                </ul>
+            </section>
+            <aside>
+                <h3>Descripción</h3>
+                <br>
+                <p>Te presento a mis youtubers favoritos <br>          \(^.^)/</p>
+                <br>
+                <input type="button" value="Agregar youtuber" class="agregar" id="agregar">
+                
+                <form class="add" id="add">
+                    <input type="text" placeholder="Nombre" class="nombre" id="nombre">
+                    <input type="url" placeholder="Link" class="direccion" id="direccion">
+                    <input type="button" value="Enviar" class="enviar" id="enviar">
+                    <p class="info" id="info">Complete la información</p>
+                </form>
+                
+            </aside>
+        </section>
+        
+        <footer>
+            <p>Fabi - Fandig - 2017 - Copyright </p>
+        </footer>
+       
+        
+        <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyChdyrPx8x9iFai7AYxhV9DI-vAQGROTTA",
+            authDomain: "fabiworld-cdd7f.firebaseapp.com",
+            databaseURL: "https://fabiworld-cdd7f.firebaseio.com",
+            projectId: "fabiworld-cdd7f",
+            storageBucket: "",
+            messagingSenderId: "293723096120"
+          };
+          firebase.initializeApp(config);
+        </script>
+        
+        <script src="JavaScript/script_youtube.js"></script>
+        
+    </body>
+</html>

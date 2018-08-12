@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>FabiWorld - iniciar sesion</title>
+        <link rel="stylesheet" href="Css/estilo_login.css">
+        <link rel="shortcut icon" type="image/x-icon" href="Imagenes/Favicon.ico">
+    </head>
+
+    <body>
+        
+        <center>
+            <div>
+                <img src="Imagenes/logo_fw.jpg">
+            </div>   
+        <form class="formulario">
+            <input type="text" id="etuser" placeholder="Nickname"   class="in" value="">
+            <input type="password" id="etpass"  placeholder="Password" class="in" >
+            <input type="button" id="btnlogin" value="Login" class="boton">
+            <a href="registro.html">Sign up</a>
+       </form>
+        </center>
+        
+        <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyChdyrPx8x9iFai7AYxhV9DI-vAQGROTTA",
+            authDomain: "fabiworld-cdd7f.firebaseapp.com",
+            databaseURL: "https://fabiworld-cdd7f.firebaseio.com",
+            projectId: "fabiworld-cdd7f",
+            storageBucket: "",
+            messagingSenderId: "293723096120"
+          };
+          firebase.initializeApp(config);
+        </script>
+        
+        <script src="JavaScript/script_Login.js"></script>
+        
+        
+    </body>
+</html>

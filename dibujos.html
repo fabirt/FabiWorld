@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Dibujos - FabiWorld</title>
+        <link rel="stylesheet" href="Css/estilo_dibujos.css">
+        <link rel="shortcut icon" type="image/x-icon" href="Imagenes/Favicon.ico">
+    </head>
+
+    <body>
+        <script src="JavaScript/leerVariables.js"></script>
+        <header>
+            <div>
+                <img src="Imagenes/logo.png" width="160" alt="Logo">
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a id="home">Inicio</a></li>
+                    <li><a id="dibujos">Draws</a></li>
+                    <li><a id="videos">Videos</a></li>
+                    <li><a id="anime">Anime</a></li>
+                    <li><a id="youtube">Youtube</a></li>
+                </ul>
+            </nav>
+        </header> 
+        
+        <section class="main">
+            <section class="contenido">
+                <article>
+                    <h2>Galería</h2>
+                </article>
+                <div class="galeria" id="galeria">
+                    <div class="dibujo">
+                        <img src="Imagenes/fabi.jpg" width="200">
+                        <br>
+                        <ul>
+                            <li>Fabi's World</li>
+                            <li>30-11-2017</li>
+                            <li>Se supone que soy yo xd</li>
+                        </ul>
+                    </div>
+                    <div class="dibujo">
+                        <img src="Imagenes/lucy.jpg" >
+                        <br>
+                        <ul>
+                            <li>Lucy</li>
+                            <li>30-11-2017</li>
+                            <li>Para Lucy :3</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </section>
+            <aside>
+                <h3>Descripción</h3>
+                <br>
+                <p>Aquí encontrarás algunos dibujos hechos por mí, unos a mano y otros de manera digital.</p>
+            </aside>
+        </section>
+        
+        <footer>
+            <p>Fabi - Fandig - 2017 - Copyright </p>
+        </footer>
+       
+        
+        
+        <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyChdyrPx8x9iFai7AYxhV9DI-vAQGROTTA",
+            authDomain: "fabiworld-cdd7f.firebaseapp.com",
+            databaseURL: "https://fabiworld-cdd7f.firebaseio.com",
+            projectId: "fabiworld-cdd7f",
+            storageBucket: "",
+            messagingSenderId: "293723096120"
+          };
+          firebase.initializeApp(config);
+        </script>
+        <script src="JavaScript/script_dibujos.js"></script>
+    
+    </body>
+</html>
